@@ -97,6 +97,9 @@ var max = Math.max.apply(null, ary);
 var min = Math.min.apply(null, ary);
 console.log(max);
 
+//ES6
+Math.max.apply[...ary]
+Math.min.apply[...ary]
 //4 字符串拼接 用eval变成js表达式
 
 var nax = eval("Math.max(" + ary.toString() + ")");
